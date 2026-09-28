@@ -57,7 +57,20 @@ Technical controls only go so far — humans remain the most exploited attack ve
 - Credential submission capture rate
 
 ---
-
+```text
+phishguard-gophish-aws/
+│
+├── README.md                    # Project overview & findings
+├── documentation.md             # Detailed walkthrough & methodology
+│
+└── evidence/                    # Screenshots and supporting evidence
+    ├── 01-gophish-dashboard.jpg
+    ├── 02-campaign-results.jpg
+    ├── 03-captured-data-timeline.jpg
+    ├── 04-landing-page-editor.jpg
+    ├── 05-gophish-admin-login.jpg
+    └── 06-ec2-terminal-gophish-running.jpg
+```
 ## 🧠 Key Findings
 
 - 📈 Click-through behaviour indicated strong susceptibility to **urgency-based messaging**
@@ -97,3 +110,4 @@ This simulation was conducted with **proper authorisation** in a controlled envi
 ## 📬 Contact
 
 Questions, feedback, or collaboration ideas? Feel free to reach out or open an issue.
+
